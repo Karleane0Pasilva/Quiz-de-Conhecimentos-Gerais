@@ -119,7 +119,8 @@ button {
   height: 100%; 
   width: 0%; 
   background: #1C83DD; 
-  transition: width 0.3s ease; 
+  transition: width 0.4s ease; 
+  
 }
 
 /* Cabeçalho do quiz */
@@ -268,4 +269,36 @@ button {
 .score-box.time { 
   background: #F9D819; 
   color: #fff; 
+
+}
+
+/* Animações extras */
+
+/* Transição suave entre telas */
+.screen {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.screen:not(.hidden) {
+  display: block;
+  opacity: 1;
+}
+
+/* Botões com efeito de clique */
+button:active {
+  transform: scale(0.95);
+  transition: transform 0.1s;
+}
+
+/* Feedback de resposta com pulso */
+.correct, 
+.incorrect {
+  animation: pulse 0.4s ease;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
 }
