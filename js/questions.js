@@ -20,9 +20,9 @@ export const questions = [
   },
   // CULTURA POPULAR
   {
-    question: "Quem foi o autor da série de livros 'Harry Potter'?",
-    answers: ["J. R. R. Tolkien", "J. K. Rowling", "George R. R. Martin", "Suzanne Collins"],
-    correct: "J. K. Rowling"
+    question: "Quem foi o autor da série de livros 'Jogos Vorazes'?",
+    answers: ["J. R. R. Tolkien", "John Green", "George R. R. Martin", "Suzanne Collins"],
+    correct: "Suzanne Collins"
   },
   // CIÊNCIA / BIOLOGIA
   {
@@ -135,4 +135,5 @@ export const questions = [
     answers: ["Marie Curie", "Rosalind Franklin", "Ada Lovelace", "Barbara McClintock"],
     correct: "Marie Curie"
   }
+
 ];
